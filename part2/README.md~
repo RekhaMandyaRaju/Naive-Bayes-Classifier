@@ -1,0 +1,63 @@
+To merge the files: mergeFiles.py
+python3 mergeFiles.py /path-to-folder/ mergedFile
+
+Learn the training set:nblearn.py
+python3 nblearn.py mergedFile model
+
+Classify the test data:nclassify.py
+python3 nbclassify.py model testfile
+
+Precision of SPAM: 0.946808
+Recall of SPAM: 0.980716
+F-Score of SPAM: 0.96346402
+
+Precision of HAM: 0.992908
+Recall of HAM: 0.98000
+F-Score of HAM: 0.98641177
+
+Precision of POS: 0.881175
+Recall of POS: 0.758056
+F-Score of POS: 0.814992
+
+Precision of NEG: 0.787716
+Recall of NEG: 0.897778
+F-Score of NEG:0.839154
+
+SVM:
+ 
+Precision of SPAM: 0.956667
+Recall of SPAM: 0.790634
+F-Score of SPAM: 0.865762
+
+Precision of HAM: 0.9285
+Recall of HAM: 0.987
+F-Score of HAM: 0.956859
+
+Precision of POS: 0.955357
+Recall of POS: 0.856000
+F-Score of POS: 0.902954
+
+Precision of NEG: 0.643564
+Recall of NEG: 0.86667
+F-Score of NEG: 0.738636
+
+MEGAM:
+I have used binary class instead of multiclass(mentioned in Piazza)
+
+Precision of SPAM: 0.980080
+Recall of SPAM: 0.984000
+F-Score of SPAM: 0.982036
+
+Precision of HAM: 0.955432
+Recall of HAM: 0.944904
+F-Score of HAM: 0.950139
+
+Precision of POS: 0.936937
+Recall of POS: 0.832000
+F-Score of POS: 0.881356
+
+Precision of NEG: 0.592233
+Recall of NEG: 0.81333
+F-Score of NEG: 0.685393
+
+
